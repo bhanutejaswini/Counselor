@@ -157,17 +157,6 @@ a.navbar-brand{
 
 /* Services Section */
 
-.service{
-    margin: 0 auto;
-}
-
-.service-icons{
-    margin-bottom: 10px;
-    position: relative;
-    z-index: 0;
-    margin: 0 auto 10px;
-}
-
 .flaticon-icons{
     height: 170px;
     width: 170px;
