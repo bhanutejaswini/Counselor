@@ -19,10 +19,23 @@ h1{
     font-weight: 500;
 }
 
+@media (max-width: 780px) {
+    h1{ font-size: 40px;}
+}
+
+@media (max-width: 500px) {
+    h1{ font-size: 30px;}
+}
+
+
 h2{
     color:rgba(0, 0, 0, 0.7);
     font-size: 40px;
     font-weight: 600;
+}
+
+@media (max-width: 780px) {
+    h2{ font-size: 30px;}
 }
 
 h4{
@@ -107,16 +120,19 @@ a.navbar-brand{
 
 /* Main Section */
 
-.text-elements{
-    float: left;
+@media(max-width: 500px){
+    #main-section .card-img{height: 300px;}
 }
 
-.text-elements p{
+#main-section p{
     font-size: 18px;
     line-height: 1.5;
     color:rgba(0,0,0,0.8);
 }
 
+@media (max-width: 500px) {
+    #main-section p{font-size: 15px;}
+}
 
 #play-symbol span{
     color: #589167;
@@ -129,10 +145,18 @@ a.navbar-brand{
     margin-right: auto;
 }
 
+@media (max-width: 500px) {
+    #play-symbol span{ 
+        height: 60px;
+        width: 60px;
+        font-size: 18px;
+        line-height: 60px;
+    }
+}
+
 /* Features Section */
 #features-section{
     color:#fff;
-    margin-top:-70px;
 }
 
 #features-section .row{
@@ -484,7 +508,6 @@ a.navbar-brand{
     color:#fff;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 30px;
 }
 
 #footer-section a{
